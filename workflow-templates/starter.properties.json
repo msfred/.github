@@ -1,0 +1,11 @@
+{
+    "name": "Starter workflow template",
+    "description": "This is a custom workflow template.",
+    "iconName": "starter-icon",
+    "categories": [
+        "javascript"
+    ],
+    "filePatterns": [
+        "package.json$"
+    ]
+}
