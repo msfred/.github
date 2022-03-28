@@ -1,7 +1,7 @@
 {
     "name": "React CI/CD Workflow",
     "description": "MSFRED organization's default CI/CD workflow for React / JavaScript projects.",
-    "iconName": "react-logo",
+    "iconName": "react-icon",
     "categories": [
         "javascript", "react", "cicd", "ci", "cd"
     ],
