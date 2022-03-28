@@ -5,11 +5,22 @@ on:
     branches: [ $default-branch ]
 
 jobs:
-  echo:
+
+  # Build React app
+  build:
+    name: Build React app
+    uses: msfred/.github/workflows/build-react@main
+    with:
+      project: MyReactApp
+    secrets:
+      token: ${{ secrets.token }}
+
+  # DEV Deployment Job
+  deploy-dev:
+    name: Deploy to DEV
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - name: Debug for the Depoly to DEV job
+        run: echo "Starting the deploy to dev job"
 
-      - name: Run a one-line script
-        run: echo "Hello this is a workflow to build and deploy a React application"
