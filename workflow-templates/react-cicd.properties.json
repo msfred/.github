@@ -1,0 +1,11 @@
+{
+    "name": "React CI/CD Workflow",
+    "description": "MSFRED organization's default CI/CD workflow for React / JavaScript projects.",
+    "iconName": "react-logo",
+    "categories": [
+        "javascript", "react", "cicd", "ci", "cd"
+    ],
+    "filePatterns": [
+        "package.json$"
+    ]
+}

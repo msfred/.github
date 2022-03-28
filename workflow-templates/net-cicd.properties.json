@@ -1,0 +1,11 @@
+{
+    "name": ".NET CI/CD Workflow",
+    "description": "MSFRED organization's default CI/CD workflow for .NET projects.",
+    "iconName": "net-logo",
+    "categories": [
+        ".net", "cicd", "ci", "cd"
+    ],
+    "filePatterns": [
+        "package.json$"
+    ]
+}
