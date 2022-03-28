@@ -3,7 +3,7 @@
     "description": "MSFRED organization's default CI/CD workflow for .NET projects.",
     "iconName": "dotnet-icon",
     "categories": [
-        "cicd", "ci", "cd", "c#", ".net"
+        "c#", "sql"
     ],
     "filePatterns": [
         "package.json$"
