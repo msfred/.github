@@ -1,8 +1,12 @@
 name: CI/CD Workflow
 
 on:
+  # Trigger when code committed to the main branch
   push:
     branches: [ $default-branch ]
+
+  # Trigger manually
+  workflow_call:
 
 jobs:
 
