@@ -15,6 +15,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+        name: Check out code from calling repository
 
       - name: Run a one-line script
         run: echo "Hello this is a workflow to build and deploy the ${{ inputs.project }} React application"

@@ -1,19 +1,19 @@
-name: CI/CD Workflow
+name: React App - CI/CD Workflow
 
 on:
   # Trigger when code committed to the main branch
   push:
-    branches: [ $default-branch ]
+    branches: [ main ]
 
   # Trigger manually
-  workflow_call:
+  workflow_dispatch:
 
 jobs:
 
   # Build React app
   build:
     name: Build React app
-    uses: msfred/.github/.github/workflows/build-react.yml@main
+    uses: msfred/templates/.github/workflows/build-react.yml@main
     with:
       project: MyReactApp
     secrets:
@@ -27,4 +27,3 @@ jobs:
     steps:
       - name: Debug for the Depoly to DEV job
         run: echo "Starting the deploy to dev job"
-
