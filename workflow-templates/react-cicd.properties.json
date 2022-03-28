@@ -3,7 +3,7 @@
     "description": "MSFRED organization's default CI/CD workflow for React / JavaScript projects.",
     "iconName": "react-icon",
     "categories": [
-        "javascript", "react", "cicd", "ci", "cd"
+        "react", "javascript", "cicd", "ci", "cd"
     ],
     "filePatterns": [
         "package.json$"
