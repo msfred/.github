@@ -1,6 +1,6 @@
 {
     "name": "Starter workflow template",
-    "description": "This is a custom workflow template.",
+    "description": "This is a custom workflow template specific to the MSFRED organization.  The workflow is defined in the /.github/workflow-templates/ folder of the MSFRED organization.",
     "iconName": "starter-icon",
     "categories": [
         "javascript"
