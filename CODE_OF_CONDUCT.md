@@ -1,5 +1,4 @@
-# Defined at the Organization
-# Contributor Covenant Code of Conduct
+# Contributor Covenant Code of Conduct for MSFRED
 
 ## Our Pledge
 
