@@ -1,3 +1,4 @@
+# Defined at the Organization
 # Contributor Covenant Code of Conduct
 
 ## Our Pledge
