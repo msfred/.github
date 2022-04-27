@@ -1,4 +1,4 @@
-# M S F R E D
+# M S - F R E D
 
 Welcome to the MSFRED organization.
 
