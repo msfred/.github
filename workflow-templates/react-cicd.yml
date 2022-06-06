@@ -3,7 +3,7 @@ name: React App - CI/CD Workflow
 on:
   # Trigger when code committed to the main branch
   push:
-    branches: [ main ]
+    branches: [ $default-branch ]
 
   # Trigger manually
   workflow_dispatch:
