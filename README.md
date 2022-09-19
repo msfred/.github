@@ -15,3 +15,4 @@ The types of items that can be here include:
 For more information on creating default community health files, see: 
 https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file
 
+Modified during a training by @fredgohsman
