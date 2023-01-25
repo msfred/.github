@@ -1,15 +1,8 @@
----
-name: Pull Request
-description: New Pull Request
-title: ""
-labels: []
-assignees: []
-
----
-
 ### List of features addressed
+<!--
 - <feature 1>
 - <feature 2>
+-->
 
 ### Description of changes addressed
 - <change 1>
